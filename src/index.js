@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// Costum page react
+import HomePage from './views/pages/HomePage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );

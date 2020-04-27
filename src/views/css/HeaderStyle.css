@@ -1,0 +1,14 @@
+/* .NavbarStyle{
+    position: fixed;
+    background-color: black;
+} */
+
+.IconBodyStyle{
+    height: 10%;
+    width: 10%;
+    /* background: transparent; */
+}
+
+.NavLinkStyle{
+    font-size: large;
+}

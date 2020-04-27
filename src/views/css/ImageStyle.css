@@ -1,0 +1,10 @@
+.ImageBody{
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 50%;
+    border: black;
+    border-style: double;
+}
