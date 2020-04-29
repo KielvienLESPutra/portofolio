@@ -5,12 +5,16 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 // Costum page react
+import HeaderComponent from './views/components/HeaderBodyComponent';
 import HomePage from './views/pages/HomePage';
+// import ExperiancePage from './views/pages/ExperiancePage';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <HomePage />
+    <HeaderComponent />
+    <HomePage id="home"/>
+    {/* <ExperiancePage /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

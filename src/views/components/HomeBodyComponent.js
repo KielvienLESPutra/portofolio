@@ -5,28 +5,28 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Costum css 
-import '../css/BodyStyle.css';
+import '../css/HomeStyle.css';
 
 // Costum component
 import LoaderImage from './LoaderImageComponent';
 
-const BodyComponent = (props) => {
+const HomeComponent = (props) => {
     return (
         <Container fluid>
-            <Row className="RowBody" xs={12} sm={12} md={12}>
-                <Col xs={6}>
+            <Row xs={12} sm={12} md={12} lg={12} xl={12}>
+                <Col className="TextComponentStyle" xs={12} lg={6}>
                     <Col xs={{ span: 11, offset: 1 }}>
-                        <h1 className="TextHeader">
+                        <h1 className="TextHeaderStyle">
                             {props.content.header}
                         </h1>
                     </Col>
                     <Col xs={{ span: 11, offset: 1 }}>
-                        <p className="TextBody">
+                        <p className="TextBodyStyle">
                             {props.content.description}
                         </p>
                     </Col>
                 </Col>
-                <Col xs={6}>
+                <Col className="ImageComponentStyle" xs={12} lg={6}>
                     <Col xs={{ span: 12 }}>
                         <LoaderImage path={props.content.resourcePath} type={props.content.resourceType} />
                     </Col>
@@ -36,4 +36,4 @@ const BodyComponent = (props) => {
     );
 }
 
-export default BodyComponent;
+export default HomeComponent;

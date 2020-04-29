@@ -6,11 +6,10 @@ import '../css/HeaderStyle.css';
 import * as ConstantsVariable from '../../constants/ConstantData';
 
 const MenuList = () => {
-    let counter = 0;
     return (
-        ConstantsVariable.HEADER_LIST.map((menu) =>
-            <Nav.Link eventKey={counter++} href="#deets" className="NavLinkStyle">
-                {menu}
+        ConstantsVariable.HEADER_LIST_OBJECT.map((menu) =>
+            <Nav.Link key={menu.id} href={menu.url} className="NavLinkStyle">
+                {menu.name}
             </Nav.Link>
         )
     )

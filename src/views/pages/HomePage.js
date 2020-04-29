@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-// import HeaderComponent from '../components/HeaderBodyComponent';
-import BodyComponent from '../components/BodyComponent';
+import HomeComponent from '../components/HomeBodyComponent';
 
 class HomePage extends Component {
     state = {
@@ -19,8 +18,7 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                {/* <HeaderComponent /> */}
-                <BodyComponent content={this.state.content} />
+                <HomeComponent key={this.state.content.id} content={this.state.content} />
             </div>
         );
     };

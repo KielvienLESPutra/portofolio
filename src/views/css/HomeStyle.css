@@ -1,0 +1,59 @@
+@keyframes textAnimation{
+    from {left:-20vw; opacity: 0%;}
+    to {left:0vw; opacity: 100%;}
+}
+
+@keyframes imageAnimation{
+    from {right:-20vw; opacity: 0%;}
+    to {right:0vw; opacity: 100%;}
+}
+
+.TextComponentStyle{
+    position: relative;
+    animation-name: textAnimation;
+    animation-duration: 3s;
+}
+
+.ImageComponentStyle{
+    position: relative;
+    animation-name: imageAnimation;
+    animation-duration: 3s;
+}
+
+.TextHeaderStyle{
+    margin-top: 50%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.TextBodyStyle{
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .TextHeaderStyle {
+        margin-top: 40%;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: bolder;
+        color: white;
+        text-align: center;
+    }
+    
+    .TextBodyStyle{
+        margin-top: 1%;
+        font-family: 'Times New Roman', Times, serif;
+        color: gray;
+        font-size: 15px;
+        text-align: justify;
+    }
+}

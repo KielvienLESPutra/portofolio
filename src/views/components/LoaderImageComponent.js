@@ -7,15 +7,13 @@ import '../css/ImageStyle.css';
 const LoadImages = (props) => {
     if (ConstantsVariable.TYPE_IMAGES_JPG === props.type || ConstantsVariable.TYPE_IMAGES_PNG === props.type) {
         let file = props.path;
-        if(null !== props.path || "" !== props.path){
+        if (null !== props.path || "" !== props.path) {
             return (
-                // <Media>
-                    <img
-                        src={file}
-                        alt="ProfilPicture"
-                        className="ImageBody"
-                    />
-                // </Media>
+                <img
+                    src={file}
+                    alt="ProfilPicture"
+                    className="ImageBodyStyle"
+                />
             );
         }
     }
