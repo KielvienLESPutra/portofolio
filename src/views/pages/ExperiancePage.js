@@ -10,7 +10,7 @@ class ExperiancePage extends Component {
                 "My past archive project in that time variatif from small project to large project,"+
                 "as full stack developer or as spesific role. "+
                 "Right now I work as junior backend developer at one of consultant company in Indonesia. ",
-            resourcePath: require('../resource/Rem-example.jpg'),
+            resourcePath: require('../resource/pie-graph-experiance-transpalant.png'),
             resourceType: "jpg"
         }
     }

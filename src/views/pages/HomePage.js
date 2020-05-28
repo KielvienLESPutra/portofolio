@@ -10,7 +10,7 @@ class HomePage extends Component {
             description: "Hello everyone i'am junior programmer from Indonesia working at one of consultant information technology. " +
                 "I created system that help bussiness to grow larger and "+
                 "make better bussiness with solving problem that rise from manual flow bussiness to automation bussiness.",
-            resourcePath: require('../resource/Rem-example.jpg'),
+            resourcePath: require('../resource/oie_w1P3EUwmH427.jpg'),
             resourceType: "jpg"
         }
     }

@@ -6,15 +6,15 @@ import * as serviceWorker from './serviceWorker';
 
 // Costum page react
 import HeaderComponent from './views/components/HeaderBodyComponent';
-import HomePage from './views/pages/HomePage';
-// import ExperiancePage from './views/pages/ExperiancePage';
+// import HomePage from './views/pages/HomePage';
+import ExperiancePage from './views/pages/ExperiancePage';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <HeaderComponent />
-    <HomePage id="home"/>
-    {/* <ExperiancePage /> */}
+    {/* <HomePage id="home"/> */}
+    <ExperiancePage id="experiance" />
   </React.StrictMode>,
   document.getElementById('root')
 );
